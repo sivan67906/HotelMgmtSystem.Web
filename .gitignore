@@ -361,3 +361,8 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/HotelMgmtSystem/Areas/Settings/Controllers/CompanyController.cs
+/HotelMgmtSystem/Areas/Settings/Views/Common/Index1.cshtml
+/HotelMgmtSystem/Areas/Settings/Views/Company
+/HotelMgmtSystem/Areas/Settings/Views/Shared/_LayoutCustom.cshtml
+/HotelMgmtSystem/Areas/Settings/Views/Shared/_LayoutCustom.cshtml.css
