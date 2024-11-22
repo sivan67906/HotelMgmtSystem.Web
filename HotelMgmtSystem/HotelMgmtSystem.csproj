@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Areas\Admin\Views\Shared\Error.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Data\" />
+    <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Areas\Settings\Data\" />
+    <Folder Include="Areas\Settings\Models\" />
+    <Folder Include="wwwroot\assets\libs\chart.js\docs\" />
+    <Folder Include="wwwroot\assets\libs\code-prettify\src\" />
+    <Folder Include="wwwroot\assets\libs\gmaps\docs\" />
+    <Folder Include="wwwroot\assets\libs\gmaps\examples\" />
+    <Folder Include="wwwroot\assets\libs\gmaps\test\" />
+    <Folder Include="wwwroot\assets\libs\litepicker\types\" />
+    <Folder Include="wwwroot\assets\libs\raphael\dev\test\" />
+    <Folder Include="wwwroot\assets\libs\starability\starability-scss\starability\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Areas\Admin\Views\_ViewImports.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
