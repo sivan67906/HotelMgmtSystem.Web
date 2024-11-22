@@ -1,4 +1,7 @@
-new Selectr("#default"), new Selectr("#multiSelect", {
+new Selectr("#default"), new Selectr("#default1"),
+    new Selectr("#default2"), new Selectr("#default3"),
+new Selectr("#default4"), new Selectr("#default5"),
+    new Selectr("#multiSelect", {
    multiple: !0
 }), new Selectr("#taggableSelect", {
    taggable: !0,
